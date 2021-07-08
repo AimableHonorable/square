@@ -1,38 +1,180 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+body{
+  background-color: black;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.h-screen{
+  min-height: 100vh;
+}
+.w-full{
+  width: 100%;
+}
+.w-15{
+  width: 15%;
+}
+.w-16{
+  width: 15.5%;
+}
+.w-10{
+  width: 12%;
+}
+.w-13{
+  width: 13%;
+}
+.w-17{
+  width: 17.5%;
+}
+.w-20{
+  width: 20%;
+}
+.w-30{
+  width: 30%;
+}
+.w-40{
+  width: 40%;
+}
+.w-50{
+  width: 50%;
+}
+.w-60{
+  width: 60%;
+}
+.fit{
+  width: 100%;
+  
+}
+.rounded-5{
+  border-radius: 15px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* negative margins */
+.mt-n9{
+  margin-top: -90px;
+}
+.mt-n10{
+  margin-top: -120px;
+}
+.mt-n1{
+  margin-top: -22px;
+}
+.mt-n3{
+  margin-top: -55px;
+}
+
+/* positioning margins */
+.start-20{
+  left: 240px;
+}
+.start-45{
+  left: 640px;
+}
+.top-10{
+  top: 100px;
+}
+.end-10{
+  right: 125px;
+}
+.scale-2{
+  transform: scale(2);
+}
+.top-40{
+  top: 250px;
+}
+.start-5{
+  left: 30px;
+}
+.start-30{
+  left: 350px;
+}
+.top-60{
+  top: 400px;
+}
+.end-20{
+  right: 250px;
+}
+.top-20{
+  top: 150px;
+}
+.end-5{
+  right: 20px;
+}
+.top-70{
+  top: 500px;
+}
+.start-60{
+  left: 700px;
+}
+.top-80{
+  top: 620px;
+}
+.start-10{
+  left: 30px;
+}
+.top-90{
+  top: 750px;
+}
+.end-30{
+  right: 100px;
+}
+.grow{
+  width: 100%;
+  transform: scale(1.7);
+  transition: all;
+  transition-duration: 1s;
+}
+.grow:hover{
+  transform: scale(1);
+  overflow: visible;
+}
+.overflowX-hidden{
+  overflow-x: hidden;
+}
+.overflowX-hidden::-webkit-scrollbar{
+  display: none;
+}
+.zi-1{
+  z-index: 1;
+}
+
+/* paddings */
+.py-10{
+  padding-top: 150px;
+}
+.py-20{
+  padding-top: 200px;
+}
+
+.fs-md{
+  font-size: 23px;
+}
+.fs-lg{
+  font-size: 50px;
+}
+
+.h-1\/2{
+  height: 50vh;
+}
+.cover{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.bg-man{
+  height: 600px;
+  background-color: blueviolet;
+  background-image: url("https://images.ctfassets.net/2d5q1td6cyxq/6fDQzx6j5WwCMeFmN7L5p7/677e1c7fac23fe5cb59a6186db5cde4a/PD01913_-_Muchacho_countertop_hotspot.png?w=1680&h=750&fm=webp&q=85&fit=scale");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.text-pulple{
+  color: blueviolet;
+}
+.fs-big{
+  font-size: 30px;
+}
+.fs-sm{
+  font-size: 15px;
+}
+li{
+  list-style-type: none;
 }
